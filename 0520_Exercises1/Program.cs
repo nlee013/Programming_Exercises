@@ -41,99 +41,113 @@ namespace _0520_Exercises1
         //    Console.WriteLine("Value : {0}", min); ;
         //}
 
+        //static void Main(string[] args) //MIN + ARRAY
+        //{
+        //    int[] MinV = { 3, 7, 5, 9, 1 };
+           
+        //    //Console.WriteLine(Add(2, 4));
+        //    //Console.WriteLine(Addd());
+
+        //    // Console.WriteLine(Add(5, 9));
+        //    // Console.WriteLine(Addd());
+
+        //    Console.WriteLine(Min (new int[] { 45, 5, 7, 3, 9 }));
+
+        //}
+        //static int Min(int[] a)//Min 2
+        //{
+        //    int result = int.MaxValue;
+        //    foreach (var v in a)
+        //    {
+        //        if(v < result)
+        //        {
+        //            result = v;
+        //        }
+        //    }
+        //    return result;
+        //}
+
+        //void Main(string[] args) //ARRAY
+        //{
+        //    int[] PrintArray = (new int[] { 1, 4, 5, 6, 9 });
+        //}
+
         static void Main(string[] args)
         {
-            int[] MinV = { 3, 7, 5, 9, 1 };
-           
-            //Console.WriteLine(Add(2, 4));
-            //Console.WriteLine(Addd());
+            int[] values = { 3, 5, 2, 0 };
 
-            // Console.WriteLine(Add(5, 9));
-            // Console.WriteLine(Addd());
+            Array.Sort(values);
 
-            Console.WriteLine(Min (new int[] { 45, 5, 7, 3, 9 }));
-
-        }
-        static int Min(int[] a)//Min 2
-        {
-            int result = int.MaxValue;
-            foreach (var v in a)
+            foreach(int value in values)
             {
-                if(v < result)
-                {
-                    result = v;
-                }
+                Console.WriteLine(value);
+                Console.WriteLine('');
             }
-            return result;
+            Console.WriteLine();
         }
 
+            //static int Add(int a, int b)
+            //{
+            //    int sum = a + b;
+
+            //    return sum;
+            //}
+
+            //static int Addd()
+            //{
+            //    int a = 3, b = 7;
+            //    int sum = a + b;
+
+            //    return sum;
+            //}
 
 
+            //static void Main() //SUM
+            //{
+            //    int[] scores = { 25, 100, 49, 27, 90, 88 };
+            //    int sum = 0;
+
+            //    //sum값 구하는 알고리즘
+            //    for (int i = 0; i < scores.Length; i++)
+            //    {
+            //        if (scores[i] >= 77)
+            //        {
+            //            sum += scores[i];
+            //        }
+            //    }
+            //    Console.WriteLine($"scores.Length의 점수 중 77점 이상 총점 : {sum}");
+            //}
+
+            //static void Main()
+            //{
+            //    int[] evenSum = { 25, 100, 42, 27, 90, 88 };
+            //    int evenSum = 0;
+
+            //    //sum값 구하는 알고리즘
+            //    for (int i = 0; i < evenSum.Length; i++)
+            //    {
+            //        if (evenSum[i] >= 77)
+            //        {
+            //            evenSum += evenSum[i];
+            //        }
+            //    }
+            //    Console.WriteLine($"scores.Length의 점수 중 77점 이상 총점 : {sum}");
+            //}
 
 
+            //static void Main(string[] args) //Roots
+            //{
+            //    int a = 1, b = 2;
+            //    (a, b) = (b, a);
+
+            //    Console.WriteLine(Roots(1, -6, -10));
+            //}
+            //static (float, float) Roots(int a, int b, int c)
+            //{
+            //    var temp = Math.Sqrt(b * b - 4 * a * c);
+            //    return ((float)(-b + temp) / (2 * a), (float)(-b - temp) / (2 * a));
+            //}
 
 
-
-        //static int Add(int a, int b)
-        //{
-        //    int sum = a + b;
-
-        //    return sum;
-        //}
-
-        //static int Addd()
-        //{
-        //    int a = 3, b = 7;
-        //    int sum = a + b;
-
-        //    return sum;
-        //}
-
-
-        //static void Main() //SUM
-        //{
-        //    int[] scores = { 25, 100, 49, 27, 90, 88 };
-        //    int sum = 0;
-
-        //    //sum값 구하는 알고리즘
-        //    for (int i = 0; i < scores.Length; i++)
-        //    {
-        //        if (scores[i] >= 77)
-        //        {
-        //            sum += scores[i];
-        //        }
-        //    }
-        //    Console.WriteLine($"scores.Length의 점수 중 77점 이상 총점 : {sum}");
-        //}
-
-        //static void Main()
-        //{
-        //    int[] evenSum = { 25, 100, 42, 27, 90, 88 };
-        //    int evenSum = 0;
-
-        //    //sum값 구하는 알고리즘
-        //    for (int i = 0; i < evenSum.Length; i++)
-        //    {
-        //        if (evenSum[i] >= 77)
-        //        {
-        //            evenSum += evenSum[i];
-        //        }
-        //    }
-        //    Console.WriteLine($"scores.Length의 점수 중 77점 이상 총점 : {sum}");
-        //}
-
-
-        //static void Main(string[] args) //Roots
-        //{
-        //    int a = 1, b = 2;
-        //    (a, b) = (b, a);
-
-        //    Console.WriteLine(Roots(1, -6, -10));
-        //}
-        //static (float, float) Roots(int a, int b, int c)
-        //{
-        //    var temp = Math.Sqrt(b * b - 4 * a * c);
-        //    return ((float)(-b + temp) / (2 * a), (float)(-b - temp) / (2 * a));
-        //}
-    }
+        }
 }
