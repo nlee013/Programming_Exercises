@@ -1,0 +1,7 @@
+C:\Users\DMC CONET\source\repos\0520_Exercises1\bin\Debug\0520_Exercises1.exe.config
+C:\Users\DMC CONET\source\repos\0520_Exercises1\bin\Debug\0520_Exercises1.exe
+C:\Users\DMC CONET\source\repos\0520_Exercises1\bin\Debug\0520_Exercises1.pdb
+C:\Users\DMC CONET\source\repos\0520_Exercises1\obj\Debug\0520_Exercises1.csprojAssemblyReference.cache
+C:\Users\DMC CONET\source\repos\0520_Exercises1\obj\Debug\0520_Exercises1.csproj.CoreCompileInputs.cache
+C:\Users\DMC CONET\source\repos\0520_Exercises1\obj\Debug\0520_Exercises1.exe
+C:\Users\DMC CONET\source\repos\0520_Exercises1\obj\Debug\0520_Exercises1.pdb
