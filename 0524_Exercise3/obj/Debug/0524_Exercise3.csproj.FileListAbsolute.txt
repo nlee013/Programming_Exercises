@@ -1,0 +1,7 @@
+C:\Users\DMC CONET\Documents\GitHub\BreakingError_0507F\Programming_Exercises\0524_Exercise3\bin\Debug\0524_Exercise3.exe.config
+C:\Users\DMC CONET\Documents\GitHub\BreakingError_0507F\Programming_Exercises\0524_Exercise3\bin\Debug\0524_Exercise3.exe
+C:\Users\DMC CONET\Documents\GitHub\BreakingError_0507F\Programming_Exercises\0524_Exercise3\bin\Debug\0524_Exercise3.pdb
+C:\Users\DMC CONET\Documents\GitHub\BreakingError_0507F\Programming_Exercises\0524_Exercise3\obj\Debug\0524_Exercise3.csprojAssemblyReference.cache
+C:\Users\DMC CONET\Documents\GitHub\BreakingError_0507F\Programming_Exercises\0524_Exercise3\obj\Debug\0524_Exercise3.csproj.CoreCompileInputs.cache
+C:\Users\DMC CONET\Documents\GitHub\BreakingError_0507F\Programming_Exercises\0524_Exercise3\obj\Debug\0524_Exercise3.exe
+C:\Users\DMC CONET\Documents\GitHub\BreakingError_0507F\Programming_Exercises\0524_Exercise3\obj\Debug\0524_Exercise3.pdb
